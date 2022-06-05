@@ -1,4 +1,10 @@
-option { color: maroon; background-color: white; }
+option { 
+  color: maroon; 
+  background-color: white; 
+}
+
+option:checked {
+  box-shadow: 0 0 10px 100px #FFFF00 inset; }
 
 .centrar-boton {
   margin: 1rem;
